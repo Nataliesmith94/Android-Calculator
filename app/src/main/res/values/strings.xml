@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Compound Interest Calculator</string>
+    <string name="enter_your_inital_deposit">Enter your Initial Deposit</string>
+    <string name="Compound_Interest">Your compound interest is:</string>
+    <string name="calculation_format_output">Compound Interest for year %1$d is £%2$s</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nataliesmith.myapplication.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/blue">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inital deposit"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/inputtext_deposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deposit"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Interest Amount:"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/inputtext_interest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interest"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"/>
+
+    <TextView
+        android:id="@+id/text_Default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_output1yr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:typeface="normal"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_output2yr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/text_output3yr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/text_output4yr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/text_output5yr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+
+
+
+</LinearLayout>
